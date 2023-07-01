@@ -1,0 +1,76 @@
+.login-title {
+  font-size: 50px;
+  text-align: center;
+  margin: auto;
+  margin-top: 50px;
+  font-family: bungee;
+  color: #f183ff;
+}
+
+.loginpage {
+  text-align: center;
+  margin: auto;
+  font-size: 30px;
+  margin-top: 40px;
+  font-family: aldrich;
+  color: #f7d1fc;
+}
+
+/* Full-width inputs */
+input[type="text"],
+input[type="password"] {
+  text-align: center;
+  width: 50%;
+  font-family: aldrich;
+  font-size: 20px;
+  padding: 5px 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 5px solid #f7d1fc;
+  box-sizing: border-box;
+}
+.loginbtn {
+  margin-top: 50px;
+  width: 150px;
+  color: #f183ff;
+  background-color: #181524;
+  border-radius: 20px;
+}
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+
+@font-face {
+  font-family: "Bungee";
+  src: url("fonts/BungeeInline-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "aldrich";
+  src: url("fonts/Aldrich-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "major";
+  src: url("fonts/MajorMonoDisplay-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  margin: 0;
+  background-color: #251f42;
